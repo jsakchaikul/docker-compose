@@ -65,4 +65,3 @@
     <p><a href="mybooks.php">Back to My Books</a></p>
 </body>
 </html>
-
