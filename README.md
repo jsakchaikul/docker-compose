@@ -1,7 +1,7 @@
 # docker-compose
-==================================================
+====================================
 This is Structure
-==================================================
+====================================
 ├── about.html
 ├── add.php
 ├── add_process.php
@@ -20,9 +20,9 @@ This is Structure
     └── init.sql
 
 3 directories, 13 files
-==================================================
+====================================
 Topology:
-==================================================
+====================================
 The system consists of two main services running as separate containers managed by Docker Compose:
 
 MySQL Database (db): This service runs the MySQL 5.7 database server. It stores the data for the books in a database named mybooks_db. The service is set up with the provided MySQL credentials (username: user, password: sm@rt) and is configured to persist the data on the host machine using a volume (db_data).
@@ -56,9 +56,9 @@ The database connection settings in the PHP scripts are defined based on the MyS
 With this setup, you have a Docker Compose environment running the Mybooks web application with a MySQL database, making it portable and easy to manage across different systems. The application allows you to view, add, edit, and delete books using a simple web interface.
 
 
-==================================================
+====================================
 Solution to Deploy
-==================================================
+====================================
 Clone the Repository:
 
 Open your terminal or command prompt.
