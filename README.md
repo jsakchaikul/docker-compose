@@ -1,28 +1,44 @@
 # docker-compose
-====================================
+===============
 This is Structure
-====================================
+===============
 ├── about.html
+
 ├── add.php
+
 ├── add_process.php
+
 ├── css
-│   └── style.css
+
+│         └── style.css
+
 ├── docker-compose.yml
+
 ├── Dockerfile
+
 ├── edit.php
+
 ├── images
-│   ├── js.jpg
-│   └── research.jpg
+
+│         ├── js.jpg
+
+│         └── research.jpg
+
 ├── index.html
+
 ├── mybooks.php
+
 ├── research.html
+
 └── sql
+
     └── init.sql
 
+
 3 directories, 13 files
-====================================
+===============
 Topology:
-====================================
+===============
 The system consists of two main services running as separate containers managed by Docker Compose:
 
 MySQL Database (db): This service runs the MySQL 5.7 database server. It stores the data for the books in a database named mybooks_db. The service is set up with the provided MySQL credentials (username: user, password: sm@rt) and is configured to persist the data on the host machine using a volume (db_data).
