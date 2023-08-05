@@ -84,10 +84,8 @@ Choose a directory where you want to clone the repository.
 Run the following command to clone the GitHub repository:
 
 $git clone https://github.com/jsakchaikul/docker-compose
-Replace <your-github-username> with your GitHub username.
 
 Navigate to the Project Directory:
-
 Change to the mybooks project directory:
 
 $cd mybooks
