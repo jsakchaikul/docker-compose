@@ -75,7 +75,10 @@ With this setup, you have a Docker Compose environment running the Mybooks web a
 ====================================
 Solution to Deploy
 ====================================
--First Go to /home/[user] with commandline
+-The First use super user
+$sudo -i
+
+-Then Go to /home/[user] with commandline 
 
 Open your terminal or command prompt.
 
@@ -88,7 +91,7 @@ $git clone https://github.com/jsakchaikul/mybooks
 Navigate to the Project Directory:
 Change to the mybooks project directory:
 And Then use
-sudo chmod 777 -R mybooks
+$sudo chmod 777 -R mybooks
 
 $cd mybooks
 Deploy the Project with Docker Compose:
