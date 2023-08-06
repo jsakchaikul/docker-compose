@@ -96,6 +96,7 @@ Deploy the Project with Docker Compose:
 Run the following command to start the Docker Compose services:
 
 $docker-compose up -d --build
+
 This will build the Docker images and start the containers for the Mybooks web application and the MySQL database.
 
 Access the Mybooks Web Application:
