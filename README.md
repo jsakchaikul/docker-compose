@@ -88,7 +88,7 @@ $git clone https://github.com/jsakchaikul/mybooks
 Navigate to the Project Directory:
 Change to the mybooks project directory:
 And Then use
-sudo chmod 777 -R /mybooks
+sudo chmod 777 -R mybooks
 
 $cd mybooks
 Deploy the Project with Docker Compose:
