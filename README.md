@@ -75,18 +75,20 @@ With this setup, you have a Docker Compose environment running the Mybooks web a
 ====================================
 Solution to Deploy
 ====================================
-Clone the Repository:
+-First Go to /home/[user] with commandline
 
 Open your terminal or command prompt.
 
 Choose a directory where you want to clone the repository.
 
-Run the following command to clone the GitHub repository:
+-Run the following command to clone the GitHub repository:
 
-$git clone https://github.com/jsakchaikul/docker-compose
+$git clone https://github.com/jsakchaikul/mybooks
 
 Navigate to the Project Directory:
 Change to the mybooks project directory:
+And Then use
+sudo chmod 777 -R /mybooks
 
 $cd mybooks
 Deploy the Project with Docker Compose:
